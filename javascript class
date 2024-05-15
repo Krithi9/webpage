@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Classes in javscript</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Reg</th>
+      <th scope="col">Stream</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="innoo1"></th>
+      <th id="innoo2"></th>
+      <th id="innoo3"></th>
+      <th id="innoo4"></th>
+      <th id="innoo5"></th>
+
+    </tr>
+    <tr>
+      <th id="innoo6"></th>
+      <th id="innoo7"></th>
+      <th id="innoo8"></th>
+      <th id="innoo9"></th>
+      <th id="innoo10"></th>
+
+    </tr>
+    <tr>
+      <th id="innoo11"></th>
+      <th id="innoo12"></th>
+      <th id="innoo13"></th>
+      <th id="innoo14"></th>
+      <th id="innoo15"></th>
+    </tr>
+
+        <tr>
+      <th id="innoo16"></th>
+      <th id="innoo17"></th>
+      <th id="innoo18"></th>
+      <th id="innoo19"></th>
+      <th id="innoo20"></th>
+</tr>
+
+    <tr>
+      <th id="innoo21"></th>
+      <th id="innoo22"></th>
+      <th id="innoo23"></th>
+      <th id="innoo24"></th>
+      <th id="innoo25"></th>
+</tr>
+
+    <tr>
+      <th id="innoo26"></th>
+      <th id="innoo27"></th>
+      <th id="innoo28"></th>
+      <th id="innoo29"></th>
+      <th id="innoo30"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo31"></th>
+      <th id="innoo32"></th>
+      <th id="innoo33"></th>
+      <th id="innoo34"></th>
+      <th id="innoo35"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo36"></th>
+      <th id="innoo37"></th>
+      <th id="innoo38"></th>
+      <th id="innoo39"></th>
+      <th id="innoo40"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo41"></th>
+      <th id="innoo42"></th>
+      <th id="innoo43"></th>
+      <th id="innoo44"></th>
+      <th id="innoo45"></th>
+</tr>
+
+    <tr>
+      <th id="innoo46"></th>
+      <th id="innoo47"></th>
+      <th id="innoo48"></th>
+      <th id="innoo49"></th>
+      <th id="innoo50"></th>
+</tr>
+
+    <tr>
+      <th id="innoo51"></th>
+      <th id="innoo52"></th>
+      <th id="innoo53"></th>
+      <th id="innoo54"></th>
+      <th id="innoo55"></th>
+</tr>
+
+    <tr>
+      <th id="innoo56"></th>
+      <th id="innoo57"></th>
+      <th id="innoo58"></th>
+      <th id="innoo59"></th>
+      <th id="innoo60"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo61"></th>
+      <th id="innoo62"></th>
+      <th id="innoo63"></th>
+      <th id="innoo64"></th>
+      <th id="innoo65"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo66"></th>
+      <th id="innoo67"></th>
+      <th id="innoo68"></th>
+      <th id="innoo69"></th>
+      <th id="innoo70"></th>
+</tr>
+
+
+
+    <tr>
+      <th id="innoo71"></th>
+      <th id="innoo72"></th>
+      <th id="innoo73"></th>
+      <th id="innoo74"></th>
+      <th id="innoo75"></th>
+</tr>
+
+    <tr>
+      <th id="innoo76"></th>
+      <th id="innoo77"></th>
+      <th id="innoo78"></th>
+      <th id="innoo79"></th>
+      <th id="innoo80"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo81"></th>
+      <th id="innoo82"></th>
+      <th id="innoo83"></th>
+      <th id="innoo84"></th>
+      <th id="innoo85"></th>
+</tr>
+
+
+    <tr>
+      <th id="innoo86"></th>
+      <th id="innoo87"></th>
+      <th id="innoo88"></th>
+      <th id="innoo89"></th>
+      <th id="innoo90"></th>
+</tr>
+
+
+
+  </tbody>
+</table>
+
+
+	<script type="text/javascript">
+		class students
+		{
+			constructor(Name,Reg,Stream,Age,Gender)
+			{
+				this.Name = Name;
+				this.Reg = Reg;
+				this.Stream = Stream;
+				this.Age = Age;
+				this.Gender = Gender;
+			}
+		}
+
+		const std1 = new students ("Krithi",91,"BCA",20,"Female")
+		const std2 = new students ("Sanj",89,"BCA",20,"Female")
+		const std3 = new students ("Deepa",47,"BCA",20,"Female")
+		const std4 = new students ("Soumya",61,"BCA",20,"Female")
+		const std5 = new students ("Prachi",11,"BBA",22,"Female")
+		const std6 = new students ("V",32,"BCA",23,"Male")
+		const std7 = new students ("Jk",51,"BBA",25,"Male")
+		const std8 = new students ("Suga",94,"BCA",26,"Male")
+		const std9 = new students ("Aaditi",97,"BCOM",28,"Female")
+		const std10 = new students ("Pallavi",88,"BCA",20,"Female")
+		const std11 = new students ("Aryan",96,"BCOM",28,"Male")
+		const std12 = new students ("Prajwal",30,"BBA",28,"Male")
+		const std13 = new students ("Shlok",34,"BCA",22,"Male")
+		const std14 = new students ("Rithwik",9,"BCOM",24,"Male")
+		const std15 = new students ("Pratham",29,"BCA",27,"Male")
+
+
+        document.getElementById('innoo1').innerHTML= std1.Name
+        document.getElementById('innoo2').innerHTML= std1.Age
+        document.getElementById('innoo3').innerHTML= std1.Stream
+        document.getElementById('innoo4').innerHTML= std1.Age
+        document.getElementById('innoo5').innerHTML= std1.Gender
+
+
+        document.getElementById('innoo6').innerHTML= std2.Name
+        document.getElementById('innoo7').innerHTML= std2.Reg
+        document.getElementById('innoo8').innerHTML= std2.Stream
+        document.getElementById('innoo9').innerHTML= std2.Age
+        document.getElementById('innoo10').innerHTML= std2.Gender
+
+
+        document.getElementById('innoo11').innerHTML= std3.Name
+        document.getElementById('innoo12').innerHTML= std3.Reg
+        document.getElementById('innoo13').innerHTML= std3.Stream
+        document.getElementById('innoo14').innerHTML= std3.Age
+        document.getElementById('innoo15').innerHTML= std3.Gender
+        
+
+
+        document.getElementById('innoo16').innerHTML= std4.Name
+        document.getElementById('innoo17').innerHTML= std4.Reg
+        document.getElementById('innoo18').innerHTML= std4.Stream
+        document.getElementById('innoo19').innerHTML= std4.Age
+        document.getElementById('innoo20').innerHTML= std4.Gender
+
+
+        document.getElementById('innoo21').innerHTML= std5.Name
+        document.getElementById('innoo22').innerHTML= std5.Reg
+        document.getElementById('innoo23').innerHTML= std5.Stream
+        document.getElementById('innoo24').innerHTML= std5.Age
+        document.getElementById('innoo25').innerHTML= std5.Gender
+
+
+        document.getElementById('innoo26').innerHTML= std6.Name
+        document.getElementById('innoo27').innerHTML= std6.Reg
+        document.getElementById('innoo28').innerHTML= std6.Stream
+        document.getElementById('innoo29').innerHTML= std6.Age
+        document.getElementById('innoo30').innerHTML= std6.Gender
+
+
+        document.getElementById('innoo31').innerHTML= std7.Name
+        document.getElementById('innoo32').innerHTML= std7.Reg
+        document.getElementById('innoo33').innerHTML= std7.Stream
+        document.getElementById('innoo34').innerHTML= std7.Age
+        document.getElementById('innoo35').innerHTML= std7.Gender
+
+
+        document.getElementById('innoo36').innerHTML= std8.Name
+        document.getElementById('innoo37').innerHTML= std8.Reg
+        document.getElementById('innoo38').innerHTML= std8.Stream
+        document.getElementById('innoo39').innerHTML= std8.Age
+        document.getElementById('innoo40').innerHTML= std8.Gender
+
+
+        document.getElementById('innoo41').innerHTML= std9.Name
+        document.getElementById('innoo42').innerHTML= std9.Reg
+        document.getElementById('innoo43').innerHTML= std9.Stream
+        document.getElementById('innoo44').innerHTML= std9.Age
+        document.getElementById('innoo45').innerHTML= std9.Gender
+
+
+        document.getElementById('innoo46').innerHTML= std10.Name
+        document.getElementById('innoo47').innerHTML= std10.Reg
+        document.getElementById('innoo48').innerHTML= std10.Stream
+        document.getElementById('innoo49').innerHTML= std10.Age
+        document.getElementById('innoo50').innerHTML= std10.Gender
+
+
+        document.getElementById('innoo51').innerHTML= std11.Name
+        document.getElementById('innoo52').innerHTML= std11.Reg
+        document.getElementById('innoo53').innerHTML= std11.Stream
+        document.getElementById('innoo54').innerHTML= std11.Age
+        document.getElementById('innoo55').innerHTML= std11.Gender
+
+
+        document.getElementById('innoo56').innerHTML= std12.Name
+        document.getElementById('innoo57').innerHTML= std12.Reg
+        document.getElementById('innoo58').innerHTML= std12.Stream
+        document.getElementById('innoo59').innerHTML= std12.Age
+        document.getElementById('innoo60').innerHTML= std12.Gender
+
+
+        document.getElementById('innoo61').innerHTML= std13.Name
+        document.getElementById('innoo62').innerHTML= std13.Reg
+        document.getElementById('innoo63').innerHTML= std13.Stream
+        document.getElementById('innoo64').innerHTML= std13.Age
+        document.getElementById('innoo65').innerHTML= std13.Gender
+
+
+        document.getElementById('innoo66').innerHTML= std14.Name
+        document.getElementById('innoo67').innerHTML= std14.Reg
+        document.getElementById('innoo68').innerHTML= std14.Stream
+        document.getElementById('innoo69').innerHTML= std14.Age
+        document.getElementById('innoo70').innerHTML= std14.Gender
+
+
+        document.getElementById('innoo71').innerHTML= std15.Name
+        document.getElementById('innoo72').innerHTML= std15.Reg
+        document.getElementById('innoo73').innerHTML= std15.Stream
+        document.getElementById('innoo74').innerHTML= std15.Age
+        document.getElementById('innoo75').innerHTML= std15.Gender
+
+
+	</script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
